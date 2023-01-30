@@ -25,10 +25,19 @@
 
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+Bengali+UI&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
     <style>
         body {
             font-family: Ubuntu, "Noto Sans Bengali UI", Arial, Helvetica, sans-serif
         }
+        .templatingSelect2 {
+  width: 300px;
+}
+h4 {
+  margin-left: 10px;
+}
     </style>
 
     @stack('after-styles')
@@ -80,6 +89,8 @@
 
     @stack('after-scripts')
     <!-- / Scripts -->
+
+
 
 </body>
 

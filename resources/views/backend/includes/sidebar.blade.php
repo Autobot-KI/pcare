@@ -36,19 +36,19 @@
 
                                         <li class="nav-group"><a class="nav-link nav-group-toggle" href="/admin/pcare"><i class="nav-icon fas fa-file-alt"></i>PCARE</a>
                                             <ul class="nav-group-items">
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Diagnosa</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Dokter</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Kelompok</a>
+                                                <!-- <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Diagnosa</a> -->
+                                                <li class="nav-group"><a class="nav-link" href="pcare/dokter"><i class="nav-icon fas fa-file-alt"></i>Dokter</a>
+                                                <!-- <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Kelompok</a>
                                                 <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Kesadaran</a>
                                                 <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>MCU    </a>
                                                 <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Obat</a>
                                                 <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Pendaftaran</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Peserta</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Poli</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Provider</a>
+                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Peserta</a> -->
+                                                <li class="nav-group"><a class="nav-link" href="pcare/poli"><i class="nav-icon fas fa-file-alt"></i>Poli</a>
+                                                <!-- <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Provider</a>
                                                 <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Specialis</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Status Pulang</a>
-                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Tindakan</a>
+                                                <li class="nav-group"><a class="nav-link" href="#"><i class="nav-icon fas fa-file-alt"></i>Status Pulang</a> -->
+                                                <li class="nav-group"><a class="nav-link" href="pcare/tindakan"><i class="nav-icon fas fa-file-alt"></i>Tindakan</a>
                                             </ul>
                                         </li>
                                     </ul>

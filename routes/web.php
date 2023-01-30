@@ -72,6 +72,9 @@ Route::group(['namespace' => 'App\Http\Controllers\Backend', 'prefix' => 'admin'
      * Namespaces indicate folder structure.
      */
     Route::get('/pcare', 'PcareController@index')->name('pcare');
+    Route::get('/pcare/dokter', 'PcareController@dokter')->name('dokter');
+    Route::get('/pcare/poli', 'PcareController@index')->name('poli');
+    Route::get('/pcare/tindakan', 'PcareController@index')->name('tindakan');
     Route::get('dashboard', 'BackendController@index')->name('dashboard');    /*
      *
      *  Settings Routes
